@@ -61,3 +61,4 @@ brew cask install openconnect-gui
 brew cask install vlc
 brew cask install spotify
 brew cask install freecad
+brew cask install docker
