@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# My Installation App script
 echo Install Mac App Store apps first.
 
 # Either use mas-cli (https://github.com/argon/mas) or install manually; apps I need: Bear/Simplenote, Tyme, Polarr, Pixelmator, JPEGmini.
@@ -21,10 +21,11 @@ brew upgrade
 
 # Install my brew packages
 brew install wget
-brew install iterm2
 brew install zsh
 brew install awk
 brew install tmux
+brew install git
+brew install clamav
 #brew install mpv
 
 # Install mas-cli
@@ -44,13 +45,14 @@ brew tap phinze/homebrew-cask
 
 # Install desired cask packages
 brew cask install cakebrew
+brew cask install iterm2
 brew cask install coconutbattery
 brew cask install franz
 brew cask install imageoptim
 brew cask install the-unarchiver
 brew cask install vlc
-brew cask install clamav
-brew cask install git
+
+#brew cask install git
 # my daily soft
 brew cask install Signal
 brew cask install Brave-browser
@@ -62,3 +64,4 @@ brew cask install vlc
 brew cask install spotify
 brew cask install freecad
 brew cask install docker
+brew cask install discord
