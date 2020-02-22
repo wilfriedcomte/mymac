@@ -26,7 +26,6 @@ brew install awk
 brew install tmux
 brew install git
 brew install clamav
-#brew install mpv
 
 # Install mas-cli
 brew install mas
